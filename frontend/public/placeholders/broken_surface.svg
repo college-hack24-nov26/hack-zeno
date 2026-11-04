@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky_bs" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+    <linearGradient id="road_bs" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="erosion" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="150" fill="url(#sky_bs)" />
+  <polygon points="0,450 800,450 560,150 240,150" fill="url(#road_bs)" />
+  <polygon points="0,450 240,150 190,150 0,450" fill="#475569" opacity="0.7" />
+  <polygon points="800,450 560,150 610,150 800,450" fill="#475569" opacity="0.7" />
+
+  <polygon points="397,150 403,150 405,210 395,210" fill="#e2e8f0" opacity="0.5" />
+  <polygon points="394,240 406,240 409,320 391,320" fill="#e2e8f0" opacity="0.6" />
+  <polygon points="388,360 412,360 416,450 384,450" fill="#e2e8f0" opacity="0.7" />
+
+  <!-- Broken Asphalt Erosion Zone -->
+  <ellipse cx="430" cy="340" rx="190" ry="60" fill="url(#erosion)" opacity="0.8" />
+  
+  <!-- Intricate Alligator Cracking & Fissures -->
+  <g stroke="#090d16" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 280,330 L 320,340 L 360,325 L 410,350 L 460,335 L 510,360 L 570,345" />
+    <path d="M 320,340 L 330,370 L 380,380 L 410,350 L 430,390 L 480,380 L 510,360" />
+    <path d="M 360,325 L 375,300 L 430,310 L 460,335 L 480,315 L 530,325" />
+    <path d="M 380,380 L 390,410 L 440,415 L 480,380" />
+    <path d="M 430,310 L 450,290 L 480,315" />
+    <path d="M 290,360 L 330,370" />
+    <path d="M 510,360 L 540,385 L 590,370" />
+    <path d="M 430,390 L 440,415" />
+    <path d="M 375,300 L 395,285 L 430,310" />
+    <!-- Secondary fine fissures -->
+    <path d="M 340,335 L 350,355" stroke-width="1.8" stroke="#000" />
+    <path d="M 440,330 L 450,360" stroke-width="1.8" stroke="#000" />
+    <path d="M 485,345 L 495,370" stroke-width="1.8" stroke="#000" />
+    <path d="M 395,365 L 415,375" stroke-width="1.8" stroke="#000" />
+  </g>
+
+  <!-- Loose eroded aggregate around edges -->
+  <circle cx="310" cy="355" r="3" fill="#64748b" />
+  <circle cx="340" cy="385" r="4" fill="#475569" />
+  <circle cx="470" cy="395" r="3.5" fill="#64748b" />
+  <circle cx="530" cy="375" r="4.5" fill="#334155" />
+  <circle cx="420" cy="315" r="2.5" fill="#94a3b8" />
+  <circle cx="490" cy="330" r="3" fill="#64748b" />
+</svg>

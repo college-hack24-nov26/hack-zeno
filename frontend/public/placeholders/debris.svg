@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky_db" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="road_db" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="150" fill="url(#sky_db)" />
+  <polygon points="0,450 800,450 560,150 240,150" fill="url(#road_db)" />
+  <polygon points="0,450 240,150 190,150 0,450" fill="#334155" opacity="0.8" />
+  <polygon points="800,450 560,150 610,150 800,450" fill="#334155" opacity="0.8" />
+
+  <polygon points="397,150 403,150 405,210 395,210" fill="#f8fafc" opacity="0.5" />
+  <polygon points="394,240 406,240 409,320 391,320" fill="#f8fafc" opacity="0.6" />
+  <polygon points="388,360 412,360 416,450 384,450" fill="#f8fafc" opacity="0.7" />
+
+  <!-- Cast Shadows of Road Debris -->
+  <ellipse cx="440" cy="365" rx="130" ry="22" fill="#000000" opacity="0.6" />
+  <ellipse cx="310" cy="380" rx="45" ry="12" fill="#000000" opacity="0.5" />
+  <ellipse cx="540" cy="340" rx="35" ry="10" fill="#000000" opacity="0.5" />
+
+  <!-- Large Shredded Tire Retread Strip in Center Lane -->
+  <path d="M 340,355 Q 410,320 480,345 Q 540,360 560,340 Q 565,348 540,365 Q 470,375 410,350 Q 360,345 335,365 Z" fill="#18181b" stroke="#27272a" stroke-width="2" />
+  <!-- Tire treads -->
+  <g stroke="#3f3f46" stroke-width="2.5">
+    <line x1="370" y1="345" x2="375" y2="355" />
+    <line x1="395" y1="340" x2="400" y2="352" />
+    <line x1="425" y1="340" x2="430" y2="355" />
+    <line x1="455" y1="346" x2="460" y2="362" />
+    <line x1="485" y1="352" x2="490" y2="368" />
+    <line x1="515" y1="350" x2="520" y2="362" />
+  </g>
+
+  <!-- Broken Wooden Pallet / Crate Cargo Pieces -->
+  <polygon points="280,365 340,350 330,375 270,390" fill="#78350f" stroke="#451a03" stroke-width="1.5" />
+  <polygon points="300,360 345,355 338,368 293,372" fill="#92400e" />
+  <polygon points="265,378 305,370 300,382 260,390" fill="#b45309" />
+
+  <!-- Shattered debris fragments -->
+  <polygon points="520,335 550,330 545,342 518,340" fill="#52525b" />
+  <polygon points="555,342 575,338 570,348 552,347" fill="#3f3f46" />
+  <circle cx="475" cy="385" r="4" fill="#18181b" />
+  <circle cx="360" cy="380" r="3" fill="#27272a" />
+  <circle cx="505" cy="375" r="2.5" fill="#18181b" />
+</svg>

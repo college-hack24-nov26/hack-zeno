@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky_rw" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="road_rw" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="150" fill="url(#sky_rw)" />
+  <polygon points="0,450 800,450 560,150 240,150" fill="url(#road_rw)" />
+  <polygon points="0,450 240,150 190,150 0,450" fill="#334155" opacity="0.8" />
+  <polygon points="800,450 560,150 610,150 800,450" fill="#334155" opacity="0.8" />
+
+  <!-- Road Excavation Trench -->
+  <polygon points="380,310 560,310 590,390 350,390" fill="#0f172a" stroke="#475569" stroke-width="2" />
+  <polygon points="390,320 550,320 575,380 365,380" fill="#020617" />
+  
+  <!-- Dirt & Aggregate Mound -->
+  <ellipse cx="470" cy="305" rx="80" ry="18" fill="#78350f" opacity="0.9" />
+
+  <!-- Traffic Safety Cones Guarding the Trench -->
+  <!-- Cone 1 (Front Left) -->
+  <ellipse cx="330" cy="395" rx="30" ry="10" fill="#000" opacity="0.5" />
+  <polygon points="310,395 350,395 334,310 326,310" fill="#ea580c" />
+  <polygon points="317,365 343,365 340,352 320,352" fill="#ffffff" />
+  <polygon points="322,342 338,342 336,332 324,332" fill="#ffffff" />
+  <polygon points="302,398 358,398 354,392 306,392" fill="#c2410c" />
+
+  <!-- Cone 2 (Back Right) -->
+  <ellipse cx="580" cy="320" rx="20" ry="7" fill="#000" opacity="0.5" />
+  <polygon points="568,320 592,320 582,260 578,260" fill="#ea580c" />
+  <polygon points="572,300 588,300 586,290 574,290" fill="#ffffff" />
+  <polygon points="575,282 585,282 584,275 576,275" fill="#ffffff" />
+</svg>

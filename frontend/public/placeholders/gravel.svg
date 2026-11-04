@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky_gv" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="road_gv" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="150" fill="url(#sky_gv)" />
+  <polygon points="0,450 800,450 560,150 240,150" fill="url(#road_gv)" />
+  <polygon points="0,450 240,150 190,150 0,450" fill="#334155" opacity="0.8" />
+  <polygon points="800,450 560,150 610,150 800,450" fill="#334155" opacity="0.8" />
+
+  <polygon points="397,150 403,150 405,210 395,210" fill="#f8fafc" opacity="0.5" />
+  <polygon points="394,240 406,240 409,320 391,320" fill="#f8fafc" opacity="0.6" />
+  <polygon points="388,360 412,360 416,450 384,450" fill="#f8fafc" opacity="0.7" />
+
+  <!-- Loose Gravel Spill Shadow & Dispersion -->
+  <ellipse cx="420" cy="360" rx="200" ry="60" fill="#1e293b" opacity="0.5" />
+
+  <!-- Coarse Stones & Aggregate -->
+  <g fill="#94a3b8" stroke="#475569" stroke-width="1">
+    <ellipse cx="320" cy="340" rx="8" ry="6" />
+    <ellipse cx="350" cy="330" rx="6" ry="5" fill="#cbd5e1" />
+    <ellipse cx="380" cy="345" rx="10" ry="7" />
+    <ellipse cx="410" cy="335" rx="7" ry="5" fill="#e2e8f0" />
+    <ellipse cx="440" cy="340" rx="9" ry="6" />
+    <ellipse cx="480" cy="330" rx="6" ry="5" fill="#cbd5e1" />
+    <ellipse cx="510" cy="345" rx="8" ry="6" />
+
+    <ellipse cx="290" cy="360" rx="7" ry="5" fill="#64748b" />
+    <ellipse cx="330" cy="370" rx="11" ry="8" />
+    <ellipse cx="370" cy="365" rx="9" ry="7" fill="#cbd5e1" />
+    <ellipse cx="400" cy="375" rx="12" ry="8" />
+    <ellipse cx="440" cy="360" rx="10" ry="7" fill="#e2e8f0" />
+    <ellipse cx="470" cy="370" rx="8" ry="6" fill="#cbd5e1" />
+    <ellipse cx="510" cy="365" rx="10" ry="7" />
+    <ellipse cx="550" cy="360" rx="7" ry="5" fill="#64748b" />
+
+    <ellipse cx="340" cy="395" rx="9" ry="6" fill="#cbd5e1" />
+    <ellipse cx="380" cy="405" rx="12" ry="8" />
+    <ellipse cx="420" cy="395" rx="10" ry="7" />
+    <ellipse cx="460" cy="405" rx="11" ry="8" fill="#e2e8f0" />
+    <ellipse cx="500" cy="390" rx="9" ry="6" fill="#64748b" />
+
+    <!-- Smaller chips -->
+    <circle cx="310" cy="375" r="3" fill="#cbd5e1" />
+    <circle cx="360" cy="350" r="3.5" fill="#94a3b8" />
+    <circle cx="425" cy="355" r="4" fill="#e2e8f0" />
+    <circle cx="455" cy="385" r="3" fill="#94a3b8" />
+    <circle cx="490" cy="350" r="3.5" fill="#cbd5e1" />
+    <circle cx="530" cy="380" r="4" fill="#94a3b8" />
+    <circle cx="370" cy="390" r="3" fill="#64748b" />
+    <circle cx="475" cy="395" r="3" fill="#64748b" />
+  </g>
+</svg>

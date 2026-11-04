@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky_sb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="road_sb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="bumpCrest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="50%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="150" fill="url(#sky_sb)" />
+  <polygon points="0,450 800,450 560,150 240,150" fill="url(#road_sb)" />
+  <polygon points="0,450 240,150 190,150 0,450" fill="#334155" opacity="0.8" />
+  <polygon points="800,450 560,150 610,150 800,450" fill="#334155" opacity="0.8" />
+
+  <polygon points="397,150 403,150 405,210 395,210" fill="#f8fafc" opacity="0.5" />
+  <polygon points="394,240 406,240 409,320 391,320" fill="#f8fafc" opacity="0.6" />
+
+  <!-- Shadow below the bump ramp -->
+  <polygon points="120,380 680,380 660,395 140,395" fill="#020617" opacity="0.7" />
+
+  <!-- The Raised Speed Bump Ramp across Both Lanes -->
+  <polygon points="170,335 630,335 680,380 120,380" fill="url(#bumpCrest)" stroke="#1e293b" stroke-width="2" />
+  
+  <!-- Highlight on the leading crest edge -->
+  <line x1="170" y1="335" x2="630" y2="335" stroke="#94a3b8" stroke-width="2.5" opacity="0.7" />
+
+  <!-- Continuous center line curving over the bump -->
+  <polygon points="392,335 408,335 412,380 388,380" fill="#f8fafc" opacity="0.7" />
+  <polygon points="388,395 412,395 416,450 384,450" fill="#f8fafc" opacity="0.8" />
+
+  <!-- Road texture asphalt scuffs across the bump -->
+  <line x1="240" y1="355" x2="280" y2="355" stroke="#0f172a" stroke-width="2" opacity="0.5" />
+  <line x1="480" y1="360" x2="540" y2="360" stroke="#0f172a" stroke-width="2" opacity="0.5" />
+</svg>

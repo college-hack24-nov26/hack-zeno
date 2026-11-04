@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky_uc" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="road_uc" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="150" fill="url(#sky_uc)" />
+  <polygon points="0,450 800,450 560,150 240,150" fill="url(#road_uc)" />
+  <polygon points="0,450 240,150 190,150 0,450" fill="#334155" opacity="0.8" />
+  <polygon points="800,450 560,150 610,150 800,450" fill="#334155" opacity="0.8" />
+
+  <polygon points="397,150 403,150 405,210 395,210" fill="#f8fafc" opacity="0.5" />
+  <polygon points="394,240 406,240 409,320 391,320" fill="#f8fafc" opacity="0.6" />
+  <polygon points="388,360 412,360 416,450 384,450" fill="#f8fafc" opacity="0.7" />
+
+  <!-- Road Hazard Surface Distortion / Skid Marks -->
+  <path d="M 280,390 Q 320,330 380,310" stroke="#090d16" stroke-width="12" fill="none" opacity="0.7" stroke-linecap="round" />
+  <path d="M 330,410 Q 370,350 430,330" stroke="#090d16" stroke-width="12" fill="none" opacity="0.7" stroke-linecap="round" />
+  
+  <!-- Caution Triangle Outline on Asphalt -->
+  <polygon points="480,290 560,400 400,400" fill="#f59e0b" opacity="0.25" stroke="#f59e0b" stroke-width="3" />
+  <polygon points="480,310 540,390 420,390" fill="#090d16" opacity="0.8" />
+  <text x="480" y="380" font-family="sans-serif" font-size="64" font-weight="900" fill="#f59e0b" text-anchor="middle">!</text>
+</svg>
